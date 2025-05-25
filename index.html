@@ -30,7 +30,7 @@
             </div>
             <div class="navbar-end md:space-x-3 max-sm:order-3">
                 <img src="./assets/coin.png" alt="Icon of TK">
-                <p class="text-xl font-medium"><span>5500</span> BDT</p>
+                <p class="text-xl font-medium"><span id="current-balance">5500</span> BDT</p>
 
             </div>
         </div>
@@ -70,7 +70,7 @@
                     <div class="space-y-1 md:space-y-5 ">
                         <div class="navbar space-x-3 bg-orange-50 w-44 lg:w-1/4 rounded-xl">
                             <img src="./assets/coin.png" alt="Icon of TK">
-                            <p class="text-xl font-medium"><span>0</span> BDT</p>
+                            <p class="text-xl font-medium"><span class="donate-ammount">0</span> BDT</p>
 
                         </div>
                         <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
@@ -80,10 +80,10 @@
                             contribution, big or small, makes difference. Please join us in supporting the relief
                             efforts and making a positive impact on the lives of those in need.
                         </p>
-                        <input type="text" placeholder="Enter donation Amount here"
-                            class="input block w-full focus:outline-none text-gray-800 bg-white focus:bg-green-50 border border-[#B4F461] focus:border-stone-300 rounded p-2 outline-none transition-all duration-200" />
+                        <input id="" type="text" placeholder="Enter donation Amount here"
+                            class="donate-money  input block w-full focus:outline-none text-gray-800 bg-white focus:bg-green-50 border border-[#B4F461] focus:border-stone-300 rounded p-2 outline-none transition-all duration-200" />
                         <button
-                            class="btn  bg-[#B4F461] hover:border-[#B4F461] text-[#0f0717] hover:bg-white hover:text-[#0f0717] px-8 py-5 w-full">Donate</button>
+                            class="donate-button btn  bg-[#B4F461] hover:border-[#B4F461] text-[#0f0717] hover:bg-white hover:text-[#0f0717] px-8 py-5 w-full">Donate</button>
 
                     </div>
                 </div>
@@ -98,9 +98,9 @@
 
                     <img src="./assets/feni.png" class=" rounded-lg w-full" />
                     <div class="space-y-1 md:space-y-5 ">
-                        <div class="navbar space-x-3 bg-orange-50 w-44 lg:w-1/4 rounded-xl">
+                        <div class="navbar space-x-3 bg-orange-50 w-2/4  rounded-xl">
                             <img src="./assets/coin.png" alt="Icon of TK">
-                            <p class="text-xl font-medium"><span>0</span> BDT</p>
+                            <p class="text-xl font-medium"><span class="donate-ammount">0</span> BDT</p>
 
                         </div>
                         <h1 class="text-2xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
@@ -112,10 +112,10 @@
                             counts towards making a real difference. Please consider donating today to assist those in
                             urgent need.
                         </p>
-                        <input type="text" placeholder="Enter donation Amount here"
-                            class="input block w-full focus:outline-none text-gray-800 bg-white focus:bg-green-50 border border-[#B4F461] focus:border-stone-300 rounded p-2 outline-none transition-all duration-200" />
+                        <input id="" type="text" placeholder="Enter donation Amount here"
+                            class="donate-money input block w-full focus:outline-none text-gray-800 bg-white focus:bg-green-50 border border-[#B4F461] focus:border-stone-300 rounded p-2 outline-none transition-all duration-200" />
                         <button
-                            class="btn  bg-[#B4F461] hover:border-[#B4F461] text-[#0f0717] hover:bg-white hover:text-[#0f0717] px-8 py-5 w-full">Donate</button>
+                            class="donate-button btn  bg-[#B4F461] hover:border-[#B4F461] text-[#0f0717] hover:bg-white hover:text-[#0f0717] px-8 py-5 w-full">Donate</button>
 
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                     <div class="space-y-1 md:space-y-5 ">
                         <div class="navbar space-x-3 bg-orange-50 w-44 lg:w-1/4 rounded-xl">
                             <img src="./assets/coin.png" alt="Icon of TK">
-                            <p class="text-xl font-medium"><span>0</span> BDT</p>
+                            <p class="text-xl font-medium"><span class="donate-ammount">0</span> BDT</p>
 
                         </div>
                         <h1 class="text-2xl font-bold">Aid for Injured in the Quota Movement</h1>
@@ -144,10 +144,10 @@
                             donation plays a vital role in alleviating their suffering and aiding in their recovery.
                             Please consider making a donation to support these brave individuals in their time of need.
                         </p>
-                        <input type="text" placeholder="Enter donation Amount here"
-                            class="input block w-full focus:outline-none text-gray-800 bg-white focus:bg-green-50 border border-[#B4F461] focus:border-stone-300 rounded p-2 outline-none transition-all duration-200" />
+                        <input id="" type="text" placeholder="Enter donation Amount here"
+                            class="donate-money input block w-full focus:outline-none text-gray-800 bg-white focus:bg-green-50 border border-[#B4F461] focus:border-stone-300 rounded p-2 outline-none transition-all duration-200" />
                         <button
-                            class="btn  bg-[#B4F461] hover:border-[#B4F461] text-[#0f0717] hover:bg-white hover:text-[#0f0717] px-8 py-5 w-full">Donate</button>
+                            class="donate-button btn  bg-[#B4F461] hover:border-[#B4F461] text-[#0f0717] hover:bg-white hover:text-[#0f0717] px-8 py-5 w-full">Donate</button>
 
                     </div>
                 </div>
@@ -157,7 +157,8 @@
         <!-- cart section end  -->
 
     </main>
-
+    <script src="utilites.js"></script>
+    <script src="donate.js"></script>
     <script src="tailwind.config.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
